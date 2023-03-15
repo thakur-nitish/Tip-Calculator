@@ -1,0 +1,75 @@
+body{
+  margin:0;
+  padding: 0;
+  font-family: Arial, sans-serif
+}
+
+.container{
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1{
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+.input-container{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.input-container label
+{
+  font-size: 20px;
+  margin-right: 10px;
+
+}
+
+.input-container input,
+.input-container select{
+ font-size: 20px;
+ padding: 10px;
+ border: 2px solid #ccc;
+ border-radius:5px;
+width: 200px;
+}
+
+.button-container{
+  margin-top: 30px;
+}
+
+button{
+  font-size: 24px;
+  padding: 20px 20px;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  border-radius: 5px;
+ cursor: pointer;
+}
+
+.result-container {
+  margin-top: 30px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  
+}
+
+.result-container p{
+  font-size: 20px;
+  margin: 0;
+}
+
+.result-container p span {
+  font-weight: bold;
+}
+
+
